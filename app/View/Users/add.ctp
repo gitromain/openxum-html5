@@ -4,7 +4,7 @@
         <legend><?php echo __('Créer un Compte'); ?></legend>
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
-        echo $this->Form->input('password_verif');
+        echo $this->Form->input('password_verif', array('type'=>'password'));
         echo $this->Form->input('email');
         echo $this->Form->input('email_verif');
         echo $this->Form->input('role', array(

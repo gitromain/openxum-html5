@@ -54,19 +54,41 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
             $d = $this->request->data;
             $d['User']['id'] = null;
-            if($d['User']['password']!=$d['User']['password_verif'])
-                $this->Session->setFlash('Les mots de passe doivent être identique');
-            elseif($d['User']['email']!=$d['User']['email_verif'])
-                $this->Session->setFlash('Les emails doivent être identique');
+            if($d['User']['password']!=$d['User']['password_verif'] || $d['User']['email']!=$d['User']['email_verif']){
+                $this->Session->setFlash('Les mots de passe et les emails doivent être identique');
+            }
+               else{
 
                 $this->User->create();
                 if ($this->User->save($this->request->data)) {
                     $this->Session->setFlash(__('L\'utilisateur a été sauvegardé'));
+
+                    // Envoie d'un mail au nouveau client
+                    $link = array('action'=>'activate',$this->User->id.'-'.md5($d['User']['password']));
+                    App::uses('CakeEmail','Network/Email'); 
+                     $mail = new CakeEmail('default'); 
+                     $mail->from('noreply@gmail.com')
+                    ->to($d['User']['email'])
+                    ->subject('openxum:: Inscription')
+                    ->emailFormat('html')
+                    ->template('signup')
+                    ->viewVars(array('username'=>$d['User']['username'], 'link'=>$link))
+                    ->send();
                     return $this->redirect(array('action' => 'index'));
                 } else {
                     $this->Session->setFlash(__('L\'utilisateur n\'a pas été sauvegardé. Merci de réessayer.'));
                 }
+            }
         }
+    }
+
+    public function activate($id = null){
+         $this->User->id = $id;
+        if (!$this->User->exists()) {
+            throw new NotFoundException(__('Invalid user'));
+        }
+        $this->User->saveField('active',1); 
+        $this->redirect($this->referer($this->Session->setFlash("Le compte a bien été activé")));
     }
 
     public function edit($id = null)

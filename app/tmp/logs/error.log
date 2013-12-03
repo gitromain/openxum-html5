@@ -1512,3 +1512,245 @@ Stack Trace:
 #2 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
 #4 {main}
+2013-12-03 10:28:56 Error: Fatal Error (1): Class 'CakeEmail' not found in [C:\wamp\www\openxum\openxum-html5\app\Model\User.php, line 60]
+2013-12-03 10:28:56 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:29:01 Error: Fatal Error (1): Class 'CakeEmail' not found in [C:\wamp\www\openxum\openxum-html5\app\Model\User.php, line 60]
+2013-12-03 10:29:01 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 60, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:33:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:33:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:34:28 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:34:28 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:35:36 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:35:36 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:37:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:37:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:38:08 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:38:08 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:39:09 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:39:09 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:39:27 Error: Fatal Error (1): Class 'CakeEmail' not found in [C:\wamp\www\openxum\openxum-html5\app\Model\User.php, line 62]
+2013-12-03 10:39:27 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:39:35 Error: Fatal Error (1): Class 'CakeEmail' not found in [C:\wamp\www\openxum\openxum-html5\app\Model\User.php, line 62]
+2013-12-03 10:39:35 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', 'C:\wamp\www\ope...', 62, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:40:27 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\CakeSocket.php, line 303]
+2013-12-03 10:40:27 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\ope...', 303, Array)
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-03 10:41:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+',
+  'enabled' => true,
+)
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1485): Model->schema()
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(62): Model->create()
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 10:42:32 Error: [SocketException] SMTP timeout.
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(104): SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 10:43:45 Error: [SocketException] SMTP timeout.
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(104): SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 10:44:48 Error: [SocketException] SMTP timeout.
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(104): SmtpTransport->_smtpSend(NULL, '220')
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 12:14:22 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(101): CakeSocket->connect()
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 12:18:24 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(101): CakeSocket->connect()
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}
+2013-12-03 12:19:08 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+Request URL: /openxum/openxum-html5/index.php/users/add
+Stack Trace:
+#0 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(101): CakeSocket->connect()
+#1 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\SmtpTransport.php(61): SmtpTransport->_connect()
+#2 C:\wamp\www\openxum\openxum-html5\lib\Cake\Network\Email\CakeEmail.php(1118): SmtpTransport->send(Object(CakeEmail))
+#3 C:\wamp\www\openxum\openxum-html5\app\Model\User.php(66): CakeEmail->send('My message')
+#4 [internal function]: User->beforeSave(Array)
+#5 C:\wamp\www\openxum\openxum-html5\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#6 C:\wamp\www\openxum\openxum-html5\lib\Cake\Model\Model.php(1702): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\wamp\www\openxum\openxum-html5\app\Controller\UsersController.php(63): Model->save(Array)
+#8 [internal function]: UsersController->add()
+#9 C:\wamp\www\openxum\openxum-html5\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\openxum\openxum-html5\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\openxum\openxum-html5\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\openxum\openxum-html5\index.php(43): require('C:\wamp\www\ope...')
+#14 {main}

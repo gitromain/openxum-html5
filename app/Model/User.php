@@ -1,5 +1,3 @@
-        )
-    );*/
 <?php
 /**
  *  This file is part of OpenXum project.
@@ -59,6 +57,15 @@ class User extends AppModel {
         if (isset($this->data[$this->alias]['password'])) {
             $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
         }
+
+        app::uses('CakeEmail','Network/Email');
+        $Email = new CakeEmail('gmail');
+        $Email->from(array('me@example.com' => 'My Site'));
+        $Email->to('you@example.com');
+        $Email->subject('About');
+        var_dump($Email->send('My message'));
+
+
         return true;
     }
 }

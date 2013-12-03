@@ -74,7 +74,7 @@ class UsersController extends AppController
                     ->template('signup')
                     ->viewVars(array('username'=>$d['User']['username'], 'link'=>$link))
                     ->send();
-                    return $this->redirect(array('action' => 'index'));
+                    return $this->redirect('/');
                 } else {
                     $this->Session->setFlash(__('L\'utilisateur n\'a pas été sauvegardé. Merci de réessayer.'));
                 }
@@ -130,15 +130,21 @@ class UsersController extends AppController
     public function login()
     {
         if ($this->request->is('post')) {
-            if ($this->Auth->login()) {
-                if (AuthComponent::user('role') === 'student') {
+            if ($this->Auth->login($this->request->data)) {
+               /* if (AuthComponent::user('role') === 'student') {
                     return $this->redirect(array('controller' => 'pages', 'action' => 'display', 'home'));
                 }
-                return $this->redirect($this->Auth->redirectUrl());
+                return $this->redirect($this->Auth->redirectUrl());*/
+                return $this->redirect('/');
             } else {
                 $this->Session->setFlash(__('Login ou mot de passe invalide, réessayer'));
             }
         }
+    }
+
+    public function logout(){
+        $this->Auth->logout();
+        $this->redirect('/');
     }
     public function account(){
         $this->Session->setFlash(__('Login ou mot de passe invalide, réessayer'));

@@ -1,5 +1,5 @@
 <div class="users form">
-<?php echo $this->Form->create('User');?>
+<?php echo $this->Form->create('User', array('onSubmit'=>'return verifForm();'));?>
     <fieldset>
         <legend><?php echo __('Créer un Compte'); ?></legend>
         <?php echo $this->Form->input('username');

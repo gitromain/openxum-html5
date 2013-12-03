@@ -55,7 +55,8 @@ class User extends AppModel {
 
     public function beforeSave($options = array()) {
         if (isset($this->data[$this->alias]['password'])) {
-            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+            //$this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+            $this->data[$this->alias]['password'] = Security::hash($this->data[$this->alias]['password'],null,false);
         }
 
         app::uses('CakeEmail','Network/Email');
@@ -63,7 +64,7 @@ class User extends AppModel {
         $Email->from(array('me@example.com' => 'My Site'));
         $Email->to('you@example.com');
         $Email->subject('About');
-        var_dump($Email->send('My message'));
+        $Email->send('My message');
 
 
         return true;

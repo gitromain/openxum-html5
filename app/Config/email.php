@@ -44,7 +44,7 @@ class EmailConfig {
 		'port' => 465,
 		'timeout' => 30,
 		'username' => 'bernier.kevin59@gmail.com',
-		
+
 		'tls' => true,
 		'client' => null,
 		'log' => false,
